@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Projeto_Vendas_CSharp
 {
-    public partial class HomePrincipal : Form
+    public partial class FrmHomePrincipal : Form
     {
-        bool sidebarexpacao;
-        public HomePrincipal()
+        bool SideBarExpacao;
+        public FrmHomePrincipal()
         {
             InitializeComponent();
         }
@@ -28,12 +28,12 @@ namespace Projeto_Vendas_CSharp
 
         private void SideBarTimer_Tick(object sender, EventArgs e)
         {
-            if (sidebarexpacao)
+            if (SideBarExpacao)
             {
                 SideBar.Width -= 10;
                 if (SideBar.Width == SideBar.MinimumSize.Width)
                 {
-                    sidebarexpacao = false;
+                    SideBarExpacao = false;
                     SideBarTimer.Stop();
                 }
             }
@@ -42,7 +42,7 @@ namespace Projeto_Vendas_CSharp
                 SideBar.Width += 10;
                 if (SideBar.Width == SideBar.MaximumSize.Width)
                 {
-                    sidebarexpacao = true;
+                    SideBarExpacao = true;
                     SideBarTimer.Stop();
                 }
             }

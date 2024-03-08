@@ -73,6 +73,16 @@ namespace Projeto_Vendas_CSharp.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap olho {
+            get {
+                object obj = ResourceManager.GetObject("olho", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap system_regular_41_home {
             get {
                 object obj = ResourceManager.GetObject("system-regular-41-home", resourceCulture);
@@ -96,6 +106,16 @@ namespace Projeto_Vendas_CSharp.Properties {
         internal static System.Drawing.Bitmap system_regular_63_settings_cog__1_ {
             get {
                 object obj = ResourceManager.GetObject("system-regular-63-settings-cog (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap visivel {
+            get {
+                object obj = ResourceManager.GetObject("visivel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

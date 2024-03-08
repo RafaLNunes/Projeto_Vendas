@@ -1,6 +1,6 @@
 ﻿namespace Projeto_Vendas_CSharp
 {
-    partial class HomeInicial
+    partial class FrmHomeInicial
     {
         /// <summary>
         ///  Required designer variable.
@@ -34,14 +34,13 @@
             button4 = new Button();
             panel5 = new Panel();
             homebutton = new Button();
-            SideBarTimer = new System.Windows.Forms.Timer(components);
-            HomeTimer = new System.Windows.Forms.Timer(components);
             panel3 = new Panel();
             button2 = new Button();
             panel1 = new Panel();
-            pictureBox2 = new PictureBox();
             label1 = new Label();
+            pictureBox2 = new PictureBox();
             SideBar = new FlowLayoutPanel();
+            SideBarTimer = new System.Windows.Forms.Timer(components);
             homebar.SuspendLayout();
             panel6.SuspendLayout();
             panel5.SuspendLayout();
@@ -115,16 +114,6 @@
             homebutton.UseVisualStyleBackColor = false;
             homebutton.Click += button1_Click;
             // 
-            // SideBarTimer
-            // 
-            SideBarTimer.Interval = 5;
-            SideBarTimer.Tick += SideBarTimer_Tick;
-            // 
-            // HomeTimer
-            // 
-            HomeTimer.Interval = 2;
-            HomeTimer.Tick += HomeTimer_Tick;
-            // 
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(101, 15, 43);
@@ -161,6 +150,16 @@
             panel1.Size = new Size(233, 75);
             panel1.TabIndex = 4;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(60, 30);
+            label1.Name = "label1";
+            label1.Size = new Size(52, 21);
+            label1.TabIndex = 7;
+            label1.Text = "Menu";
+            // 
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.wired_lineal_1326_command_window_line__1_;
@@ -171,16 +170,6 @@
             pictureBox2.TabIndex = 6;
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click_1;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(60, 30);
-            label1.Name = "label1";
-            label1.Size = new Size(52, 21);
-            label1.TabIndex = 7;
-            label1.Text = "Menu";
             // 
             // SideBar
             // 
@@ -197,15 +186,21 @@
             SideBar.TabIndex = 0;
             SideBar.Paint += SideBar_Paint;
             // 
-            // HomeInicial
+            // SideBarTimer
+            // 
+            SideBarTimer.Interval = 2;
+            SideBarTimer.Tick += SideBarTimer_Tick;
+            // 
+            // FrmHomeInicial
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(954, 581);
             Controls.Add(SideBar);
-            Name = "HomeInicial";
+            Name = "FrmHomeInicial";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Home";
+            FormClosed += FrmHomeInicial_FormClosed;
             Load += HomeInicial_Load;
             homebar.ResumeLayout(false);
             panel6.ResumeLayout(false);
@@ -219,18 +214,17 @@
         }
 
         #endregion
-        private System.Windows.Forms.Timer SideBarTimer;
         private Panel homebar;
         private Panel panel6;
         private Button button4;
         private Panel panel5;
         private Button homebutton;
-        private System.Windows.Forms.Timer HomeTimer;
         private Panel panel3;
         private Button button2;
         private Panel panel1;
         private Label label1;
         private PictureBox pictureBox2;
         private FlowLayoutPanel SideBar;
+        private System.Windows.Forms.Timer SideBarTimer;
     }
 }

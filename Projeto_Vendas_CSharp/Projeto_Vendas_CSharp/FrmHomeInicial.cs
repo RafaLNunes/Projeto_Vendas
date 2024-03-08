@@ -1,10 +1,11 @@
+using System.Threading;
+
 namespace Projeto_Vendas_CSharp
 {
-    public partial class HomeInicial : Form
+    public partial class FrmHomeInicial : Form
     {
-        bool sidebarexpacao;
-        bool homeretro;
-        public HomeInicial()
+        bool SideBarExpacao;
+        public FrmHomeInicial()
         {
             InitializeComponent();
         }
@@ -16,12 +17,12 @@ namespace Projeto_Vendas_CSharp
 
         private void SideBarTimer_Tick(object sender, EventArgs e)
         {
-            if (sidebarexpacao)
+            if (SideBarExpacao)
             {
                 SideBar.Width -= 10;
                 if (SideBar.Width == SideBar.MinimumSize.Width)
                 {
-                    sidebarexpacao = false;
+                    SideBarExpacao = false;
                     SideBarTimer.Stop();
                 }
             }
@@ -30,7 +31,7 @@ namespace Projeto_Vendas_CSharp
                 SideBar.Width += 10;
                 if (SideBar.Width == SideBar.MaximumSize.Width)
                 {
-                    sidebarexpacao = true;
+                    SideBarExpacao = true;
                     SideBarTimer.Stop();
                 }
             }
@@ -45,34 +46,28 @@ namespace Projeto_Vendas_CSharp
 
         private void HomeTimer_Tick(object sender, EventArgs e)
         {
-            if (homeretro)
-            {
-                homebar.Height += 10;
-                if (homebar.Height == homebar.MaximumSize.Height)
-                {
-                    homeretro = false;
-                    HomeTimer.Stop();
-                }
-            }
-            else
-            {
-                homebar.Height -= 10;
-                if (homebar.Height == homebar.MinimumSize.Height)
-                {
-                    homeretro = true;
-                    HomeTimer.Stop();
-                }
-            }
+
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
-            HomeTimer.Start();
+
+            FrmUser u = new FrmUser();
+            this.Hide();
+            u.ShowDialog();
+
+
         }
 
         private void SideBar_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void FrmHomeInicial_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

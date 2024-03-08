@@ -1,6 +1,6 @@
 ﻿namespace Projeto_Vendas_CSharp
 {
-    partial class HomePrincipal
+    partial class FrmHomePrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -200,16 +200,16 @@
             // 
             // SideBarTimer
             // 
-            SideBarTimer.Interval = 5;
+            SideBarTimer.Interval = 2;
             SideBarTimer.Tick += SideBarTimer_Tick;
             // 
-            // HomePrincipal
+            // FrmHomePrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(954, 581);
             Controls.Add(SideBar);
-            Name = "HomePrincipal";
+            Name = "FrmHomePrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "HomePrincipal";
             Load += HomePrincipal_Load;
