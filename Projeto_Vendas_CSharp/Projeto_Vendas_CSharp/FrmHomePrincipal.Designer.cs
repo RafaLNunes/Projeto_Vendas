@@ -42,6 +42,9 @@
             panel5 = new Panel();
             button4 = new Button();
             SideBarTimer = new System.Windows.Forms.Timer(components);
+            panel6 = new Panel();
+            panel7 = new Panel();
+            button5 = new Button();
             SideBar.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -49,16 +52,15 @@
             panel2.SuspendLayout();
             panel4.SuspendLayout();
             panel5.SuspendLayout();
+            panel6.SuspendLayout();
+            panel7.SuspendLayout();
             SuspendLayout();
             // 
             // SideBar
             // 
-            SideBar.BackColor = Color.FromArgb(101, 15, 43);
+            SideBar.BackColor = Color.FromArgb(189, 217, 223);
             SideBar.Controls.Add(panel1);
-            SideBar.Controls.Add(panel3);
-            SideBar.Controls.Add(panel2);
-            SideBar.Controls.Add(panel4);
-            SideBar.Controls.Add(panel5);
+            SideBar.Controls.Add(panel6);
             SideBar.Dock = DockStyle.Left;
             SideBar.Location = new Point(0, 0);
             SideBar.MaximumSize = new Size(236, 581);
@@ -66,6 +68,7 @@
             SideBar.Name = "SideBar";
             SideBar.Size = new Size(236, 581);
             SideBar.TabIndex = 2;
+            SideBar.Paint += SideBar_Paint;
             // 
             // panel1
             // 
@@ -100,21 +103,22 @@
             // 
             // panel3
             // 
+            panel3.BackColor = Color.FromArgb(189, 217, 223);
             panel3.Controls.Add(button2);
             panel3.ForeColor = Color.Transparent;
-            panel3.Location = new Point(3, 84);
+            panel3.Location = new Point(0, 57);
             panel3.Name = "panel3";
-            panel3.Size = new Size(233, 56);
+            panel3.Size = new Size(233, 42);
             panel3.TabIndex = 2;
             // 
             // button2
             // 
-            button2.BackColor = Color.FromArgb(101, 15, 43);
+            button2.BackColor = Color.FromArgb(182, 205, 209);
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Image = Properties.Resources.wired_lineal_63_home__1_;
+            button2.Image = Properties.Resources.system_regular_28_info;
             button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(-11, -21);
+            button2.Location = new Point(-11, -29);
             button2.Name = "button2";
             button2.Padding = new Padding(15, 0, 0, 0);
             button2.Size = new Size(281, 99);
@@ -125,16 +129,18 @@
             // 
             // panel2
             // 
+            panel2.BackColor = Color.FromArgb(189, 217, 223);
             panel2.Controls.Add(button1);
             panel2.ForeColor = Color.Transparent;
-            panel2.Location = new Point(3, 146);
+            panel2.Location = new Point(259, 145);
+            panel2.MinimumSize = new Size(233, 56);
             panel2.Name = "panel2";
             panel2.Size = new Size(233, 56);
             panel2.TabIndex = 4;
             // 
             // button1
             // 
-            button1.BackColor = Color.FromArgb(101, 15, 43);
+            button1.BackColor = Color.FromArgb(189, 217, 223);
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button1.Image = Properties.Resources.system_regular_63_settings_cog;
@@ -150,16 +156,18 @@
             // 
             // panel4
             // 
+            panel4.BackColor = Color.FromArgb(189, 217, 223);
             panel4.Controls.Add(button3);
             panel4.ForeColor = Color.Transparent;
-            panel4.Location = new Point(3, 208);
+            panel4.Location = new Point(259, 207);
+            panel4.MinimumSize = new Size(233, 56);
             panel4.Name = "panel4";
             panel4.Size = new Size(233, 56);
             panel4.TabIndex = 2;
             // 
             // button3
             // 
-            button3.BackColor = Color.FromArgb(101, 15, 43);
+            button3.BackColor = Color.FromArgb(189, 217, 223);
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button3.Image = Properties.Resources.wired_lineal_21_avatar;
@@ -175,16 +183,18 @@
             // 
             // panel5
             // 
+            panel5.BackColor = Color.FromArgb(189, 217, 223);
             panel5.Controls.Add(button4);
             panel5.ForeColor = Color.Transparent;
-            panel5.Location = new Point(3, 270);
+            panel5.Location = new Point(259, 269);
+            panel5.MinimumSize = new Size(233, 56);
             panel5.Name = "panel5";
             panel5.Size = new Size(233, 56);
             panel5.TabIndex = 4;
             // 
             // button4
             // 
-            button4.BackColor = Color.FromArgb(101, 15, 43);
+            button4.BackColor = Color.FromArgb(189, 217, 223);
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button4.Image = Properties.Resources.wired_lineal_153_bar_chart;
@@ -203,12 +213,53 @@
             SideBarTimer.Interval = 2;
             SideBarTimer.Tick += SideBarTimer_Tick;
             // 
+            // panel6
+            // 
+            panel6.Controls.Add(panel7);
+            panel6.Controls.Add(panel3);
+            panel6.Location = new Point(3, 84);
+            panel6.MaximumSize = new Size(233, 99);
+            panel6.MinimumSize = new Size(233, 56);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(233, 56);
+            panel6.TabIndex = 5;
+            // 
+            // panel7
+            // 
+            panel7.BackColor = Color.FromArgb(189, 217, 223);
+            panel7.Controls.Add(button5);
+            panel7.ForeColor = Color.Transparent;
+            panel7.Location = new Point(0, 1);
+            panel7.MinimumSize = new Size(233, 56);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(233, 56);
+            panel7.TabIndex = 6;
+            // 
+            // button5
+            // 
+            button5.BackColor = Color.FromArgb(189, 217, 223);
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button5.Image = Properties.Resources.wired_lineal_63_home__1_;
+            button5.ImageAlign = ContentAlignment.MiddleLeft;
+            button5.Location = new Point(-11, -21);
+            button5.Name = "button5";
+            button5.Padding = new Padding(15, 0, 0, 0);
+            button5.Size = new Size(281, 99);
+            button5.TabIndex = 2;
+            button5.Text = "          Home";
+            button5.TextAlign = ContentAlignment.MiddleLeft;
+            button5.UseVisualStyleBackColor = false;
+            // 
             // FrmHomePrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(954, 581);
             Controls.Add(SideBar);
+            Controls.Add(panel5);
+            Controls.Add(panel2);
+            Controls.Add(panel4);
             Name = "FrmHomePrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "HomePrincipal";
@@ -221,6 +272,8 @@
             panel2.ResumeLayout(false);
             panel4.ResumeLayout(false);
             panel5.ResumeLayout(false);
+            panel6.ResumeLayout(false);
+            panel7.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -238,5 +291,8 @@
         private Label label1;
         private PictureBox pictureBox2;
         private System.Windows.Forms.Timer SideBarTimer;
+        private Panel panel6;
+        private Panel panel7;
+        private Button button5;
     }
 }

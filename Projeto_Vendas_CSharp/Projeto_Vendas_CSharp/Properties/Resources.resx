@@ -130,25 +130,28 @@
   <data name="system-regular-41-home" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\system-regular-41-home.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="olho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\olho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="wired-lineal-63-home (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wired-lineal-63-home (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Design sem nome" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Design sem nome.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="wired-lineal-1326-command-window-line (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wired-lineal-1326-command-window-line (1)1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="wired-lineal-21-avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wired-lineal-21-avatar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="system-regular-63-settings-cog (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\system-regular-63-settings-cog (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="visivel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\visivel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="olho" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\olho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wired-lineal-21-avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wired-lineal-21-avatar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wired-lineal-1326-command-window-line (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wired-lineal-1326-command-window-line (1)1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Design sem nome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Design sem nome.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="system-regular-63-settings-cog (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\system-regular-63-settings-cog (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="system-regular-28-info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\system-regular-28-info.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -83,6 +83,16 @@ namespace Projeto_Vendas_CSharp.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap system_regular_28_info {
+            get {
+                object obj = ResourceManager.GetObject("system-regular-28-info", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap system_regular_41_home {
             get {
                 object obj = ResourceManager.GetObject("system-regular-41-home", resourceCulture);

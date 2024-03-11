@@ -53,6 +53,9 @@ namespace Projeto_Vendas_CSharp
             SideBarTimer.Start();
         }
 
+        private void SideBar_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }
