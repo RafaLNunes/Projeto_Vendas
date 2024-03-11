@@ -61,7 +61,7 @@
             // 
             // SideBar
             // 
-            SideBar.BackColor = Color.FromArgb(101, 15, 43);
+            SideBar.BackColor = Color.FromArgb(189, 217, 223);
             SideBar.Controls.Add(panel1);
             SideBar.Controls.Add(panel3);
             SideBar.Controls.Add(homebar);
@@ -106,22 +106,25 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.FromArgb(101, 15, 43);
+            panel3.BackColor = Color.FromArgb(189, 217, 223);
             panel3.Controls.Add(button2);
             panel3.ForeColor = Color.Transparent;
             panel3.Location = new Point(3, 84);
+            panel3.MinimumSize = new Size(233, 56);
             panel3.Name = "panel3";
             panel3.Size = new Size(233, 56);
             panel3.TabIndex = 2;
             // 
             // button2
             // 
-            button2.BackColor = Color.FromArgb(101, 15, 43);
+            button2.BackColor = Color.FromArgb(189, 217, 223);
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button2.Image = Properties.Resources.wired_lineal_63_home__1_;
             button2.ImageAlign = ContentAlignment.MiddleLeft;
             button2.Location = new Point(-12, -22);
+            button2.MaximumSize = new Size(281, 99);
+            button2.MinimumSize = new Size(281, 99);
             button2.Name = "button2";
             button2.Padding = new Padding(15, 0, 0, 0);
             button2.Size = new Size(281, 99);
@@ -132,7 +135,7 @@
             // 
             // homebar
             // 
-            homebar.BackColor = Color.FromArgb(101, 15, 43);
+            homebar.BackColor = Color.FromArgb(189, 217, 223);
             homebar.Controls.Add(panel6);
             homebar.Controls.Add(panel5);
             homebar.Location = new Point(3, 146);
@@ -153,7 +156,7 @@
             // 
             // button4
             // 
-            button4.BackColor = Color.FromArgb(101, 15, 43);
+            button4.BackColor = Color.FromArgb(182, 205, 209);
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button4.Image = Properties.Resources.system_regular_63_settings_cog__1_;
@@ -179,7 +182,7 @@
             // 
             // homebutton
             // 
-            homebutton.BackColor = Color.FromArgb(82, 15, 37);
+            homebutton.BackColor = Color.FromArgb(189, 217, 223);
             homebutton.FlatStyle = FlatStyle.Flat;
             homebutton.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             homebutton.Image = Properties.Resources.wired_lineal_21_avatar;
