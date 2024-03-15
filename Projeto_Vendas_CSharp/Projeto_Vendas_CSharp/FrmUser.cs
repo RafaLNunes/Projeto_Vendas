@@ -16,6 +16,7 @@ namespace Projeto_Vendas_CSharp
         bool SideBarExpacao;
         bool UserRetrair;
 
+
         public FrmUser()
         {
             InitializeComponent();
@@ -93,16 +94,21 @@ namespace Projeto_Vendas_CSharp
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if(txtPassWord.PasswordChar == '•')
+            if (txtPassWord.PasswordChar == '•')
             {
                 visibleImage.Image = visiblePassWord.Images[1];
                 txtPassWord.PasswordChar = '\0';
             }
-            else if(txtPassWord.PasswordChar != '•')
+            else if (txtPassWord.PasswordChar != '•')
             {
                 visibleImage.Image = visiblePassWord.Images[0];
                 txtPassWord.PasswordChar = '•';
             }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

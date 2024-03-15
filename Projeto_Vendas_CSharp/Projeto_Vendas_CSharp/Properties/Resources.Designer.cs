@@ -63,6 +63,26 @@ namespace Projeto_Vendas_CSharp.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bem_vindos__nós_somos_a_TUTS__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Bem vindos, nós somos a TUTS (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bem_vindos__nós_somos_a_TUTS__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("Bem vindos, nós somos a TUTS (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Design_sem_nome {
             get {
                 object obj = ResourceManager.GetObject("Design sem nome", resourceCulture);
@@ -86,6 +106,26 @@ namespace Projeto_Vendas_CSharp.Properties {
         internal static System.Drawing.Bitmap system_regular_28_info {
             get {
                 object obj = ResourceManager.GetObject("system-regular-28-info", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap system_regular_28_info1 {
+            get {
+                object obj = ResourceManager.GetObject("system-regular-28-info1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap system_regular_34_code {
+            get {
+                object obj = ResourceManager.GetObject("system-regular-34-code", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
