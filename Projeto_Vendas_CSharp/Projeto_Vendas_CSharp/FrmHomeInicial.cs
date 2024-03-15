@@ -5,6 +5,7 @@ namespace Projeto_Vendas_CSharp
     public partial class FrmHomeInicial : Form
     {
         bool SideBarExpacao;
+        bool homeretrair;
         public FrmHomeInicial()
         {
             InitializeComponent();
@@ -53,7 +54,7 @@ namespace Projeto_Vendas_CSharp
         private void button1_Click(object sender, EventArgs e)
         {
 
-            FrmUser u = new FrmUser();
+            FrmUserInicial u = new FrmUserInicial();
             this.Hide();
             u.ShowDialog();
 
@@ -68,6 +69,38 @@ namespace Projeto_Vendas_CSharp
         private void FrmHomeInicial_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            HomeTimer.Start();
+        }
+
+        private void HomeTimer_Tick_1(object sender, EventArgs e)
+        {
+            if (homeretrair)
+            {
+                homepainel.Height += 10;
+                if (homepainel.Height == homepainel.MaximumSize.Height)
+                {
+                    homeretrair = false;
+                    HomeTimer.Stop();
+                }
+            }
+            else
+            {
+                homepainel.Height -= 10;
+                if (homepainel.Height == homepainel.MinimumSize.Height)
+                {
+                    homeretrair = true;
+                    HomeTimer.Stop();
+                }
+            }
         }
     }
 }

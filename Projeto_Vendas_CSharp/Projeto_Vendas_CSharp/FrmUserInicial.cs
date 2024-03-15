@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Projeto_Vendas_CSharp
 {
-    public partial class FrmUser : Form
+    public partial class FrmUserInicial : Form
     {
 
         bool SideBarExpacao;
         bool UserRetrair;
+        bool homeretrair;
 
-
-        public FrmUser()
+        public FrmUserInicial()
         {
             InitializeComponent();
             visibleImage.Image = visiblePassWord.Images[0];
@@ -106,9 +106,35 @@ namespace Projeto_Vendas_CSharp
             }
         }
 
+
+
+        private void HomeTimer_Tick(object sender, EventArgs e)
+        {
+            if (homeretrair)
+            {
+                homepainel.Height += 10;
+                if (homepainel.Height == homepainel.MaximumSize.Height)
+                {
+                    homeretrair = false;
+                    HomeTimer.Stop();
+                }
+            }
+            else
+            {
+                homepainel.Height -= 10;
+                if (homepainel.Height == homepainel.MinimumSize.Height)
+                {
+                    homeretrair = true;
+                    HomeTimer.Stop();
+                }
+            }
+        }
+
+
+
         private void button5_Click(object sender, EventArgs e)
         {
-
+            HomeTimer.Start();
         }
     }
 }

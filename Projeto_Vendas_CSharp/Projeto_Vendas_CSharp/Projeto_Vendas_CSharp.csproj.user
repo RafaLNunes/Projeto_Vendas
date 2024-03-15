@@ -10,7 +10,7 @@
     <Compile Update="FrmHomePrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrmUser.cs">
+    <Compile Update="FrmUserInicial.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

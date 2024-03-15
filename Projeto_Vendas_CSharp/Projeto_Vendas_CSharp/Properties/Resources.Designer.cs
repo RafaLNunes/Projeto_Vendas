@@ -193,6 +193,16 @@ namespace Projeto_Vendas_CSharp.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap wired_lineal_1331_repository_1 {
+            get {
+                object obj = ResourceManager.GetObject("wired-lineal-1331-repository 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap wired_lineal_153_bar_chart {
             get {
                 object obj = ResourceManager.GetObject("wired-lineal-153-bar-chart", resourceCulture);
@@ -213,9 +223,29 @@ namespace Projeto_Vendas_CSharp.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap wired_lineal_57_server_1 {
+            get {
+                object obj = ResourceManager.GetObject("wired-lineal-57-server 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap wired_lineal_63_home__1_ {
             get {
                 object obj = ResourceManager.GetObject("wired-lineal-63-home (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wired_lineal_726_wireless_connection {
+            get {
+                object obj = ResourceManager.GetObject("wired-lineal-726-wireless-connection", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

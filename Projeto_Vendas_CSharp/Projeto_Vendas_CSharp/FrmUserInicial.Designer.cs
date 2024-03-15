@@ -1,6 +1,6 @@
 ﻿namespace Projeto_Vendas_CSharp
 {
-    partial class FrmUser
+    partial class FrmUserInicial
     {
         /// <summary>
         /// Required designer variable.
@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmUser));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmUserInicial));
             SideBar = new FlowLayoutPanel();
             panel1 = new Panel();
             label1 = new Label();
             pictureBox2 = new PictureBox();
-            panel2 = new Panel();
+            homepainel = new Panel();
             panel8 = new Panel();
             button6 = new Button();
             panel7 = new Panel();
@@ -54,10 +54,11 @@
             label3 = new Label();
             visibleImage = new PictureBox();
             visiblePassWord = new ImageList(components);
+            HomeTimer = new System.Windows.Forms.Timer(components);
             SideBar.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            panel2.SuspendLayout();
+            homepainel.SuspendLayout();
             panel8.SuspendLayout();
             panel7.SuspendLayout();
             panel3.SuspendLayout();
@@ -71,14 +72,14 @@
             // 
             SideBar.BackColor = Color.FromArgb(189, 217, 223);
             SideBar.Controls.Add(panel1);
-            SideBar.Controls.Add(panel2);
+            SideBar.Controls.Add(homepainel);
             SideBar.Controls.Add(homebar);
             SideBar.Dock = DockStyle.Left;
             SideBar.Location = new Point(0, 0);
-            SideBar.MaximumSize = new Size(236, 581);
-            SideBar.MinimumSize = new Size(63, 581);
+            SideBar.MaximumSize = new Size(236, 621);
+            SideBar.MinimumSize = new Size(63, 621);
             SideBar.Name = "SideBar";
-            SideBar.Size = new Size(236, 581);
+            SideBar.Size = new Size(236, 621);
             SideBar.TabIndex = 1;
             // 
             // panel1
@@ -112,17 +113,17 @@
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
             // 
-            // panel2
+            // homepainel
             // 
-            panel2.Controls.Add(panel8);
-            panel2.Controls.Add(panel7);
-            panel2.Controls.Add(panel3);
-            panel2.Location = new Point(3, 84);
-            panel2.MaximumSize = new Size(233, 142);
-            panel2.MinimumSize = new Size(233, 56);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(233, 56);
-            panel2.TabIndex = 10;
+            homepainel.Controls.Add(panel8);
+            homepainel.Controls.Add(panel7);
+            homepainel.Controls.Add(panel3);
+            homepainel.Location = new Point(3, 84);
+            homepainel.MaximumSize = new Size(233, 142);
+            homepainel.MinimumSize = new Size(233, 56);
+            homepainel.Name = "homepainel";
+            homepainel.Size = new Size(233, 56);
+            homepainel.TabIndex = 10;
             // 
             // panel8
             // 
@@ -141,12 +142,12 @@
             button6.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button6.Image = Properties.Resources.system_regular_34_code;
             button6.ImageAlign = ContentAlignment.MiddleLeft;
-            button6.Location = new Point(-11, -29);
+            button6.Location = new Point(0, -29);
             button6.Name = "button6";
             button6.Padding = new Padding(15, 0, 0, 0);
-            button6.Size = new Size(281, 99);
+            button6.Size = new Size(233, 99);
             button6.TabIndex = 2;
-            button6.Text = "          Explicações";
+            button6.Text = "           Explicações";
             button6.TextAlign = ContentAlignment.MiddleLeft;
             button6.UseVisualStyleBackColor = false;
             // 
@@ -173,7 +174,7 @@
             button5.Padding = new Padding(15, 0, 0, 0);
             button5.Size = new Size(281, 99);
             button5.TabIndex = 2;
-            button5.Text = "          Home";
+            button5.Text = "           Home";
             button5.TextAlign = ContentAlignment.MiddleLeft;
             button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
@@ -195,12 +196,12 @@
             button2.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button2.Image = Properties.Resources.system_regular_28_info1;
             button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(-11, -29);
+            button2.Location = new Point(0, -29);
             button2.Name = "button2";
             button2.Padding = new Padding(15, 0, 0, 0);
-            button2.Size = new Size(281, 99);
+            button2.Size = new Size(233, 99);
             button2.TabIndex = 2;
-            button2.Text = "          Sobre nós";
+            button2.Text = "           Sobre nós";
             button2.TextAlign = ContentAlignment.MiddleLeft;
             button2.UseVisualStyleBackColor = false;
             // 
@@ -329,7 +330,12 @@
             visiblePassWord.Images.SetKeyName(0, "visivel.png");
             visiblePassWord.Images.SetKeyName(1, "olho.png");
             // 
-            // FrmUser
+            // HomeTimer
+            // 
+            HomeTimer.Interval = 5;
+            HomeTimer.Tick += HomeTimer_Tick;
+            // 
+            // FrmUserInicial
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -340,16 +346,17 @@
             Controls.Add(txtPassWord);
             Controls.Add(SideBar);
             Controls.Add(label2);
-            Name = "FrmUser";
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Name = "FrmUserInicial";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "FrmUser";
+            Text = "Usuário";
             FormClosed += FrmUser_FormClosed;
             Load += FrmUser_Load;
             SideBar.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            panel2.ResumeLayout(false);
+            homepainel.ResumeLayout(false);
             panel8.ResumeLayout(false);
             panel7.ResumeLayout(false);
             panel3.ResumeLayout(false);
@@ -380,7 +387,8 @@
         private Label label3;
         private PictureBox visibleImage;
         private ImageList visiblePassWord;
-        private Panel panel2;
+        private System.Windows.Forms.Timer HomeTimer;
+        private Panel homepainel;
         private Panel panel8;
         private Button button6;
         private Panel panel7;

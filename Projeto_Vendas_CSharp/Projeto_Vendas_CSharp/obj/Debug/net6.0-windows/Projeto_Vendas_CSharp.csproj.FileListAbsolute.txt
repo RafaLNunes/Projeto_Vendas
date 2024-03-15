@@ -18,4 +18,4 @@ C:\Users\aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Ven
 C:\Users\aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Vendas_CSharp\obj\Debug\net6.0-windows\Projeto_Vendas_CSharp.Armazem_de_dados_Extras.resources
 C:\Users\aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Vendas_CSharp\obj\Debug\net6.0-windows\Projeto_Vendas_CSharp.FrmHomeInicial.resources
 C:\Users\aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Vendas_CSharp\obj\Debug\net6.0-windows\Projeto_Vendas_CSharp.FrmHomePrincipal.resources
-C:\Users\aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Vendas_CSharp\obj\Debug\net6.0-windows\Projeto_Vendas_CSharp.FrmUser.resources
+C:\Users\aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Vendas_CSharp\obj\Debug\net6.0-windows\Projeto_Vendas_CSharp.FrmUserInicial.resources
