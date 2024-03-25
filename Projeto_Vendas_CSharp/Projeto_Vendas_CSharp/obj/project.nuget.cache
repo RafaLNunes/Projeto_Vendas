@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "jfzqZWCLvExSIeBP7DjtRzim0GFm24W/1ET3cyMXs/wYKF0bX+g53NY1BfN6EE70qC47+q/bLdZPV6hBxc9sRw==",
+  "dgSpecHash": "1oEyuuBxo60KZUS+SYnKkm5FRAdQGKEBdGE/TQCP0C5iguwrX9TnXdrqt70xBFVrxpU2/EWaBCQZQAiBNJ+2Dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
+  ],
   "logs": []
 }

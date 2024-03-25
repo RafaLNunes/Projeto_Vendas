@@ -6,6 +6,7 @@ namespace Projeto_Vendas_CSharp
     {
         bool SideBarExpacao;
         bool homeretrair;
+        bool userretrair;
         public FrmHomeInicial()
         {
             InitializeComponent();
@@ -99,6 +100,49 @@ namespace Projeto_Vendas_CSharp
                 {
                     homeretrair = true;
                     HomeTimer.Stop();
+                }
+            }
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            FrmHomeInicial i = new FrmHomeInicial();
+            this.Hide();
+            i.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FrmExplicacao et = new FrmExplicacao();
+            this.Hide();
+            et.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FrmConfigInicial c = new FrmConfigInicial();
+            this.Hide();
+            c.ShowDialog();
+        }
+
+        private void UserTimer_Tick(object sender, EventArgs e)
+        {
+            if (userretrair)
+            {
+                UserBar.Height += 10;
+                if (UserBar.Height == UserBar.MaximumSize.Height)
+                {
+                    userretrair = false;
+                    UserTimer.Stop();
+                }
+            }
+            else
+            {
+                UserBar.Height -= 10;
+                if (UserBar.Height == UserBar.MinimumSize.Height)
+                {
+                    userretrair = true;
+                    UserTimer.Stop();
                 }
             }
         }
