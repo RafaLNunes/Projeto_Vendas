@@ -14,6 +14,8 @@ namespace Projeto_exemplo
             Int32 ai = 64;
             bool craf = false;
 
+            MessageBox.Show("Ra");
+
         }
     }
 }
