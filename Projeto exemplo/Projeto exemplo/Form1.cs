@@ -14,7 +14,11 @@ namespace Projeto_exemplo
             Int32 ai = 64;
             bool craf = false;
 
+<<<<<<< Updated upstream
             MessageBox.Show("Ra");
+=======
+            string vava = "olé";
+>>>>>>> Stashed changes
 
         }
     }
