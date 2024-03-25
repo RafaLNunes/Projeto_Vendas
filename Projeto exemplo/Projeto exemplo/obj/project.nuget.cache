@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "glZ3qVKYBBAxz3WyikH7cY0Wc1yITaAWo24tKHbYbOCSn/5Dldr9163hfSWFxfqr2AM6bOERR8BMjPaUjTTqiQ==",
+  "dgSpecHash": "y1U4SGTorZgDEZYaaj0tFzw1/JafROlpXNuh/p13UzT5AeXNRgzYNCmOfxcjRoF+bgmNcYjn8kkZsgVr4GH4aQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto exemplo\\Projeto exemplo\\Projeto exemplo.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto exemplo\\Projeto exemplo\\Projeto exemplo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
+  ],
   "logs": []
 }

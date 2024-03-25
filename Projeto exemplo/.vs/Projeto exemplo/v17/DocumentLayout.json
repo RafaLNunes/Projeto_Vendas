@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto exemplo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7667DE-9FDC-4C59-9621-AFB712817A0E}|Projeto exemplo\\Projeto exemplo.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto exemplo\\projeto exemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7667DE-9FDC-4C59-9621-AFB712817A0E}|Projeto exemplo\\Projeto exemplo.csproj|solutionrelative:projeto exemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7667DE-9FDC-4C59-9621-AFB712817A0E}|Projeto exemplo\\Projeto exemplo.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto exemplo\\projeto exemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CB7667DE-9FDC-4C59-9621-AFB712817A0E}|Projeto exemplo\\Projeto exemplo.csproj|solutionrelative:projeto exemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7667DE-9FDC-4C59-9621-AFB712817A0E}|Projeto exemplo\\Projeto exemplo.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto exemplo\\projeto exemplo\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7667DE-9FDC-4C59-9621-AFB712817A0E}|Projeto exemplo\\Projeto exemplo.csproj|solutionrelative:projeto exemplo\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto exemplo\\Projeto exemplo\\Form1.cs",
+              "RelativeDocumentMoniker": "Projeto exemplo\\Form1.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto exemplo\\Projeto exemplo\\Form1.cs",
+              "RelativeToolTip": "Projeto exemplo\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T11:12:03.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto exemplo\\Projeto exemplo\\Form1.cs",
+              "RelativeDocumentMoniker": "Projeto exemplo\\Form1.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto exemplo\\Projeto exemplo\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Projeto exemplo\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T11:11:53.397Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto exemplo\\Projeto exemplo\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Projeto exemplo\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto exemplo\\Projeto exemplo\\Form1.Designer.cs",
+              "RelativeToolTip": "Projeto exemplo\\Form1.Designer.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAtwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T11:11:41.822Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
