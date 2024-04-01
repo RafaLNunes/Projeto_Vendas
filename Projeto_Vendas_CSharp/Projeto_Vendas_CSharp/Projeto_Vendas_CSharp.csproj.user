@@ -4,9 +4,6 @@
     <Compile Update="Armazem_de_dados_Extras.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrmConfigInicial.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="FrmExplicacao.cs">
       <SubType>Form</SubType>
     </Compile>

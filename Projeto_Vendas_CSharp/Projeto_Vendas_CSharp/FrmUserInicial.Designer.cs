@@ -30,6 +30,15 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmUserInicial));
+            SideBarTimer = new System.Windows.Forms.Timer(components);
+            UserTimer = new System.Windows.Forms.Timer(components);
+            label2 = new Label();
+            txtPassWord = new TextBox();
+            txtUserName = new TextBox();
+            label3 = new Label();
+            visibleImage = new PictureBox();
+            visiblePassWord = new ImageList(components);
+            HomeTimer = new System.Windows.Forms.Timer(components);
             SideBar = new FlowLayoutPanel();
             panel1 = new Panel();
             label1 = new Label();
@@ -46,15 +55,7 @@
             button4 = new Button();
             panel5 = new Panel();
             homebutton = new Button();
-            SideBarTimer = new System.Windows.Forms.Timer(components);
-            UserTimer = new System.Windows.Forms.Timer(components);
-            label2 = new Label();
-            txtPassWord = new TextBox();
-            txtUserName = new TextBox();
-            label3 = new Label();
-            visibleImage = new PictureBox();
-            visiblePassWord = new ImageList(components);
-            HomeTimer = new System.Windows.Forms.Timer(components);
+            ((System.ComponentModel.ISupportInitialize)visibleImage).BeginInit();
             SideBar.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -65,8 +66,76 @@
             homebar.SuspendLayout();
             panel6.SuspendLayout();
             panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)visibleImage).BeginInit();
             SuspendLayout();
+            // 
+            // SideBarTimer
+            // 
+            SideBarTimer.Interval = 2;
+            SideBarTimer.Tick += SideBarTimer_Tick;
+            // 
+            // UserTimer
+            // 
+            UserTimer.Interval = 2;
+            UserTimer.Tick += UserTimer_Tick;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(512, 335);
+            label2.Name = "label2";
+            label2.Size = new Size(72, 20);
+            label2.TabIndex = 5;
+            label2.Text = "PassWord";
+            // 
+            // txtPassWord
+            // 
+            txtPassWord.Location = new Point(586, 331);
+            txtPassWord.Margin = new Padding(3, 4, 3, 4);
+            txtPassWord.Name = "txtPassWord";
+            txtPassWord.PasswordChar = '•';
+            txtPassWord.Size = new Size(181, 27);
+            txtPassWord.TabIndex = 6;
+            // 
+            // txtUserName
+            // 
+            txtUserName.Location = new Point(586, 283);
+            txtUserName.Margin = new Padding(3, 4, 3, 4);
+            txtUserName.Name = "txtUserName";
+            txtUserName.Size = new Size(181, 27);
+            txtUserName.TabIndex = 8;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(512, 287);
+            label3.Name = "label3";
+            label3.Size = new Size(78, 20);
+            label3.TabIndex = 7;
+            label3.Text = "UserName";
+            // 
+            // visibleImage
+            // 
+            visibleImage.Location = new Point(775, 335);
+            visibleImage.Margin = new Padding(3, 4, 3, 4);
+            visibleImage.Name = "visibleImage";
+            visibleImage.Size = new Size(30, 30);
+            visibleImage.SizeMode = PictureBoxSizeMode.AutoSize;
+            visibleImage.TabIndex = 9;
+            visibleImage.TabStop = false;
+            visibleImage.Click += pictureBox1_Click;
+            // 
+            // visiblePassWord
+            // 
+            visiblePassWord.ColorDepth = ColorDepth.Depth8Bit;
+            visiblePassWord.ImageStream = (ImageListStreamer)resources.GetObject("visiblePassWord.ImageStream");
+            visiblePassWord.TransparentColor = Color.Transparent;
+            visiblePassWord.Images.SetKeyName(0, "visivel.png");
+            visiblePassWord.Images.SetKeyName(1, "olho.png");
+            // 
+            // HomeTimer
+            // 
+            HomeTimer.Interval = 5;
+            HomeTimer.Tick += HomeTimer_Tick;
             // 
             // SideBar
             // 
@@ -81,7 +150,7 @@
             SideBar.MinimumSize = new Size(72, 828);
             SideBar.Name = "SideBar";
             SideBar.Size = new Size(270, 828);
-            SideBar.TabIndex = 1;
+            SideBar.TabIndex = 10;
             // 
             // panel1
             // 
@@ -114,7 +183,6 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox2.TabIndex = 6;
             pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox2_Click;
             // 
             // homepainel
             // 
@@ -185,7 +253,6 @@
             button5.Text = "           Home";
             button5.TextAlign = ContentAlignment.MiddleLeft;
             button5.UseVisualStyleBackColor = false;
-            button5.Click += button5_Click;
             // 
             // panel3
             // 
@@ -282,87 +349,17 @@
             homebutton.Text = "          User";
             homebutton.TextAlign = ContentAlignment.MiddleLeft;
             homebutton.UseVisualStyleBackColor = false;
-            homebutton.Click += homebutton_Click;
-            // 
-            // SideBarTimer
-            // 
-            SideBarTimer.Interval = 2;
-            SideBarTimer.Tick += SideBarTimer_Tick;
-            // 
-            // UserTimer
-            // 
-            UserTimer.Interval = 2;
-            UserTimer.Tick += UserTimer_Tick;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(512, 335);
-            label2.Name = "label2";
-            label2.Size = new Size(72, 20);
-            label2.TabIndex = 5;
-            label2.Text = "PassWord";
-            // 
-            // txtPassWord
-            // 
-            txtPassWord.Location = new Point(586, 331);
-            txtPassWord.Margin = new Padding(3, 4, 3, 4);
-            txtPassWord.Name = "txtPassWord";
-            txtPassWord.PasswordChar = '•';
-            txtPassWord.Size = new Size(181, 27);
-            txtPassWord.TabIndex = 6;
-            // 
-            // txtUserName
-            // 
-            txtUserName.Location = new Point(586, 283);
-            txtUserName.Margin = new Padding(3, 4, 3, 4);
-            txtUserName.Name = "txtUserName";
-            txtUserName.Size = new Size(181, 27);
-            txtUserName.TabIndex = 8;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(512, 287);
-            label3.Name = "label3";
-            label3.Size = new Size(78, 20);
-            label3.TabIndex = 7;
-            label3.Text = "UserName";
-            // 
-            // visibleImage
-            // 
-            visibleImage.Location = new Point(775, 335);
-            visibleImage.Margin = new Padding(3, 4, 3, 4);
-            visibleImage.Name = "visibleImage";
-            visibleImage.Size = new Size(30, 30);
-            visibleImage.SizeMode = PictureBoxSizeMode.AutoSize;
-            visibleImage.TabIndex = 9;
-            visibleImage.TabStop = false;
-            visibleImage.Click += pictureBox1_Click;
-            // 
-            // visiblePassWord
-            // 
-            visiblePassWord.ColorDepth = ColorDepth.Depth8Bit;
-            visiblePassWord.ImageStream = (ImageListStreamer)resources.GetObject("visiblePassWord.ImageStream");
-            visiblePassWord.TransparentColor = Color.Transparent;
-            visiblePassWord.Images.SetKeyName(0, "visivel.png");
-            visiblePassWord.Images.SetKeyName(1, "olho.png");
-            // 
-            // HomeTimer
-            // 
-            HomeTimer.Interval = 5;
-            HomeTimer.Tick += HomeTimer_Tick;
             // 
             // FrmUserInicial
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1282, 828);
+            Controls.Add(SideBar);
             Controls.Add(visibleImage);
             Controls.Add(txtUserName);
             Controls.Add(label3);
             Controls.Add(txtPassWord);
-            Controls.Add(SideBar);
             Controls.Add(label2);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 4, 3, 4);
@@ -371,6 +368,7 @@
             Text = "Usuário";
             FormClosed += FrmUser_FormClosed;
             Load += FrmUser_Load;
+            ((System.ComponentModel.ISupportInitialize)visibleImage).EndInit();
             SideBar.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -382,22 +380,11 @@
             homebar.ResumeLayout(false);
             panel6.ResumeLayout(false);
             panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)visibleImage).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private FlowLayoutPanel SideBar;
-        private Panel panel1;
-        private Label label1;
-        private PictureBox pictureBox2;
-        private Panel homebar;
-        private Panel panel6;
-        private Button button4;
-        private Panel panel5;
-        private Button homebutton;
         private System.Windows.Forms.Timer SideBarTimer;
         private System.Windows.Forms.Timer UserTimer;
         private Label label2;
@@ -407,6 +394,10 @@
         private PictureBox visibleImage;
         private ImageList visiblePassWord;
         private System.Windows.Forms.Timer HomeTimer;
+        private FlowLayoutPanel SideBar;
+        private Panel panel1;
+        private Label label1;
+        private PictureBox pictureBox2;
         private Panel homepainel;
         private Panel panel8;
         private Button button6;
@@ -414,5 +405,10 @@
         private Button button5;
         private Panel panel3;
         private Button button2;
+        private Panel homebar;
+        private Panel panel6;
+        private Button button4;
+        private Panel panel5;
+        private Button homebutton;
     }
 }

@@ -223,6 +223,16 @@ namespace Projeto_Vendas_CSharp.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap wired_lineal_27_globe {
+            get {
+                object obj = ResourceManager.GetObject("wired-lineal-27-globe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap wired_lineal_57_server_1 {
             get {
                 object obj = ResourceManager.GetObject("wired-lineal-57-server 1", resourceCulture);

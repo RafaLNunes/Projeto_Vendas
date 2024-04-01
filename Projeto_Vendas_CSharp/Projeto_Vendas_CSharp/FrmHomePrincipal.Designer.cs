@@ -57,6 +57,8 @@
             SideBarTimer = new System.Windows.Forms.Timer(components);
             HomeTimer = new System.Windows.Forms.Timer(components);
             VendaTimer = new System.Windows.Forms.Timer(components);
+            panel6 = new Panel();
+            button10 = new Button();
             SideBar.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -71,6 +73,7 @@
             panel5.SuspendLayout();
             panel2.SuspendLayout();
             panel4.SuspendLayout();
+            panel6.SuspendLayout();
             SuspendLayout();
             // 
             // SideBar
@@ -226,24 +229,26 @@
             // vendapainel
             // 
             vendapainel.BackColor = Color.FromArgb(189, 217, 223);
+            vendapainel.Controls.Add(panel6);
             vendapainel.Controls.Add(panel11);
             vendapainel.Controls.Add(panel10);
             vendapainel.Controls.Add(panel9);
             vendapainel.Controls.Add(panel5);
             vendapainel.Location = new Point(3, 195);
             vendapainel.Margin = new Padding(3, 4, 3, 4);
-            vendapainel.MaximumSize = new Size(266, 249);
+            vendapainel.MaximumSize = new Size(266, 306);
             vendapainel.MinimumSize = new Size(266, 75);
             vendapainel.Name = "vendapainel";
             vendapainel.Size = new Size(266, 75);
             vendapainel.TabIndex = 5;
+            vendapainel.Paint += vendapainel_Paint;
             // 
             // panel11
             // 
             panel11.BackColor = Color.FromArgb(189, 217, 223);
             panel11.Controls.Add(button9);
             panel11.ForeColor = Color.Transparent;
-            panel11.Location = new Point(0, 191);
+            panel11.Location = new Point(0, 189);
             panel11.Margin = new Padding(3, 4, 3, 4);
             panel11.MaximumSize = new Size(266, 57);
             panel11.MinimumSize = new Size(266, 57);
@@ -433,6 +438,37 @@
             VendaTimer.Interval = 5;
             VendaTimer.Tick += VendaTimer_Tick;
             // 
+            // panel6
+            // 
+            panel6.BackColor = Color.FromArgb(189, 217, 223);
+            panel6.Controls.Add(button10);
+            panel6.ForeColor = Color.Transparent;
+            panel6.Location = new Point(0, 245);
+            panel6.Margin = new Padding(3, 4, 3, 4);
+            panel6.MaximumSize = new Size(266, 57);
+            panel6.MinimumSize = new Size(266, 57);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(266, 57);
+            panel6.TabIndex = 8;
+            // 
+            // button10
+            // 
+            button10.BackColor = Color.FromArgb(182, 205, 209);
+            button10.FlatStyle = FlatStyle.Flat;
+            button10.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button10.Image = Properties.Resources.wired_lineal_27_globe;
+            button10.ImageAlign = ContentAlignment.MiddleLeft;
+            button10.Location = new Point(0, -36);
+            button10.Margin = new Padding(3, 4, 3, 4);
+            button10.Name = "button10";
+            button10.Padding = new Padding(17, 0, 0, 0);
+            button10.Size = new Size(266, 132);
+            button10.TabIndex = 2;
+            button10.Text = "           Vendas";
+            button10.TextAlign = ContentAlignment.MiddleLeft;
+            button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click;
+            // 
             // FrmHomePrincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -461,6 +497,7 @@
             panel5.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel4.ResumeLayout(false);
+            panel6.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -492,5 +529,7 @@
         private Panel panel11;
         private Button button9;
         private System.Windows.Forms.Timer VendaTimer;
+        private Panel panel6;
+        private Button button10;
     }
 }

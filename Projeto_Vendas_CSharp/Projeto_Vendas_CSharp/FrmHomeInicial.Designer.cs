@@ -265,7 +265,6 @@
             button4.Text = "          Configurações";
             button4.TextAlign = ContentAlignment.MiddleLeft;
             button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
             // 
             // panel5
             // 

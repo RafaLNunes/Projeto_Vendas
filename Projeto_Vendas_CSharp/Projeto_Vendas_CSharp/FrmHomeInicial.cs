@@ -118,12 +118,6 @@ namespace Projeto_Vendas_CSharp
             et.ShowDialog();
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            FrmConfigInicial c = new FrmConfigInicial();
-            this.Hide();
-            c.ShowDialog();
-        }
 
         private void UserTimer_Tick(object sender, EventArgs e)
         {

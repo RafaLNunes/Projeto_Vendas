@@ -118,5 +118,15 @@ namespace Projeto_Vendas_CSharp
         {
             Application.Exit();
         }
+
+        private void vendapainel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
