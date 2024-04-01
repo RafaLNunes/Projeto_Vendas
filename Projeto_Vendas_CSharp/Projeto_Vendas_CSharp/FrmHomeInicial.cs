@@ -10,11 +10,13 @@ namespace Projeto_Vendas_CSharp
         public FrmHomeInicial()
         {
             InitializeComponent();
+            FrmAviso avi = new FrmAviso();
+            avi.ShowDialog();
         }
 
         private void HomeInicial_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void SideBarTimer_Tick(object sender, EventArgs e)

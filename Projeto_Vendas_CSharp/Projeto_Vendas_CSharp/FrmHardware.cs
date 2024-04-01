@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace Projeto_Vendas_CSharp
 {
-    public partial class Armazem_de_dados_Extras : Form
+    public partial class FrmHardware : Form
     {
-        public Armazem_de_dados_Extras()
+        public FrmHardware()
         {
             InitializeComponent();
         }
 
-        private void Armazem_de_dados_Extras_Load(object sender, EventArgs e)
+        private void FrmHardware_FormClosed(object sender, FormClosedEventArgs e)
         {
+            Application.Exit();
 
         }
-
     }
 }

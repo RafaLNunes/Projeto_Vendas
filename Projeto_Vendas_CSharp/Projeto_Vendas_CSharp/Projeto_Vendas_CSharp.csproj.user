@@ -1,16 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Armazem_de_dados_Extras.cs">
+    <Compile Update="FrmAviso.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmExplicacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmExplicacaoprincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmHardware.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmHomeInicial.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmHomePrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmNuvem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmRedes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmSoftware.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmUserInicial.cs">

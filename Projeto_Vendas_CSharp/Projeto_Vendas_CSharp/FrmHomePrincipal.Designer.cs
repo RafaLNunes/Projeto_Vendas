@@ -42,6 +42,8 @@
             panel3 = new Panel();
             button2 = new Button();
             vendapainel = new Panel();
+            panel6 = new Panel();
+            button10 = new Button();
             panel11 = new Panel();
             button9 = new Button();
             panel10 = new Panel();
@@ -50,15 +52,13 @@
             button7 = new Button();
             panel5 = new Panel();
             button4 = new Button();
-            panel2 = new Panel();
-            button1 = new Button();
             panel4 = new Panel();
             button3 = new Button();
+            panel2 = new Panel();
+            button1 = new Button();
             SideBarTimer = new System.Windows.Forms.Timer(components);
             HomeTimer = new System.Windows.Forms.Timer(components);
             VendaTimer = new System.Windows.Forms.Timer(components);
-            panel6 = new Panel();
-            button10 = new Button();
             SideBar.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -67,13 +67,13 @@
             panel7.SuspendLayout();
             panel3.SuspendLayout();
             vendapainel.SuspendLayout();
+            panel6.SuspendLayout();
             panel11.SuspendLayout();
             panel10.SuspendLayout();
             panel9.SuspendLayout();
             panel5.SuspendLayout();
-            panel2.SuspendLayout();
             panel4.SuspendLayout();
-            panel6.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // SideBar
@@ -82,8 +82,8 @@
             SideBar.Controls.Add(panel1);
             SideBar.Controls.Add(homepainel);
             SideBar.Controls.Add(vendapainel);
-            SideBar.Controls.Add(panel2);
             SideBar.Controls.Add(panel4);
+            SideBar.Controls.Add(panel2);
             SideBar.Dock = DockStyle.Left;
             SideBar.Location = new Point(0, 0);
             SideBar.Margin = new Padding(3, 4, 3, 4);
@@ -158,15 +158,16 @@
             button6.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button6.Image = Properties.Resources.system_regular_34_code;
             button6.ImageAlign = ContentAlignment.MiddleLeft;
-            button6.Location = new Point(0, -39);
+            button6.Location = new Point(-11, -39);
             button6.Margin = new Padding(3, 4, 3, 4);
             button6.Name = "button6";
             button6.Padding = new Padding(17, 0, 0, 0);
-            button6.Size = new Size(266, 132);
+            button6.Size = new Size(293, 132);
             button6.TabIndex = 2;
             button6.Text = "           Explicações";
             button6.TextAlign = ContentAlignment.MiddleLeft;
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // panel7
             // 
@@ -187,7 +188,7 @@
             button5.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button5.Image = Properties.Resources.wired_lineal_63_home__1_;
             button5.ImageAlign = ContentAlignment.MiddleLeft;
-            button5.Location = new Point(-13, -28);
+            button5.Location = new Point(-14, -28);
             button5.Margin = new Padding(3, 4, 3, 4);
             button5.Name = "button5";
             button5.Padding = new Padding(17, 0, 0, 0);
@@ -216,15 +217,16 @@
             button2.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button2.Image = Properties.Resources.system_regular_28_info1;
             button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(0, -39);
+            button2.Location = new Point(-12, -39);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Padding = new Padding(17, 0, 0, 0);
-            button2.Size = new Size(266, 132);
+            button2.Size = new Size(319, 132);
             button2.TabIndex = 2;
             button2.Text = "           Sobre nós";
             button2.TextAlign = ContentAlignment.MiddleLeft;
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // vendapainel
             // 
@@ -242,6 +244,37 @@
             vendapainel.Size = new Size(266, 75);
             vendapainel.TabIndex = 5;
             vendapainel.Paint += vendapainel_Paint;
+            // 
+            // panel6
+            // 
+            panel6.BackColor = Color.FromArgb(189, 217, 223);
+            panel6.Controls.Add(button10);
+            panel6.ForeColor = Color.Transparent;
+            panel6.Location = new Point(0, 245);
+            panel6.Margin = new Padding(3, 4, 3, 4);
+            panel6.MaximumSize = new Size(266, 57);
+            panel6.MinimumSize = new Size(266, 57);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(266, 57);
+            panel6.TabIndex = 8;
+            // 
+            // button10
+            // 
+            button10.BackColor = Color.FromArgb(182, 205, 209);
+            button10.FlatStyle = FlatStyle.Flat;
+            button10.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button10.Image = Properties.Resources.wired_lineal_27_globe;
+            button10.ImageAlign = ContentAlignment.MiddleLeft;
+            button10.Location = new Point(-9, -36);
+            button10.Margin = new Padding(3, 4, 3, 4);
+            button10.Name = "button10";
+            button10.Padding = new Padding(17, 0, 0, 0);
+            button10.Size = new Size(283, 132);
+            button10.TabIndex = 2;
+            button10.Text = "           Nuvem";
+            button10.TextAlign = ContentAlignment.MiddleLeft;
+            button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click;
             // 
             // panel11
             // 
@@ -263,15 +296,16 @@
             button9.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button9.Image = Properties.Resources.wired_lineal_726_wireless_connection;
             button9.ImageAlign = ContentAlignment.MiddleLeft;
-            button9.Location = new Point(0, -36);
+            button9.Location = new Point(-9, -36);
             button9.Margin = new Padding(3, 4, 3, 4);
             button9.Name = "button9";
             button9.Padding = new Padding(17, 0, 0, 0);
-            button9.Size = new Size(266, 132);
+            button9.Size = new Size(283, 132);
             button9.TabIndex = 2;
-            button9.Text = "           Vendas";
+            button9.Text = "           Hardware";
             button9.TextAlign = ContentAlignment.MiddleLeft;
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // panel10
             // 
@@ -293,15 +327,16 @@
             button8.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button8.Image = Properties.Resources.wired_lineal_57_server_1;
             button8.ImageAlign = ContentAlignment.MiddleLeft;
-            button8.Location = new Point(0, -36);
+            button8.Location = new Point(-9, -36);
             button8.Margin = new Padding(3, 4, 3, 4);
             button8.Name = "button8";
             button8.Padding = new Padding(17, 0, 0, 0);
-            button8.Size = new Size(266, 132);
+            button8.Size = new Size(283, 132);
             button8.TabIndex = 2;
             button8.Text = "           Redes";
             button8.TextAlign = ContentAlignment.MiddleLeft;
             button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
             // 
             // panel9
             // 
@@ -324,15 +359,16 @@
             button7.ForeColor = Color.Transparent;
             button7.Image = Properties.Resources.wired_lineal_1331_repository_1;
             button7.ImageAlign = ContentAlignment.MiddleLeft;
-            button7.Location = new Point(0, -36);
+            button7.Location = new Point(-9, -36);
             button7.Margin = new Padding(3, 4, 3, 4);
             button7.Name = "button7";
             button7.Padding = new Padding(17, 0, 0, 0);
-            button7.Size = new Size(266, 132);
+            button7.Size = new Size(283, 132);
             button7.TabIndex = 2;
             button7.Text = "           Software";
             button7.TextAlign = ContentAlignment.MiddleLeft;
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // panel5
             // 
@@ -365,41 +401,12 @@
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
-            // panel2
-            // 
-            panel2.BackColor = Color.FromArgb(189, 217, 223);
-            panel2.Controls.Add(button1);
-            panel2.ForeColor = Color.Transparent;
-            panel2.Location = new Point(3, 278);
-            panel2.Margin = new Padding(3, 4, 3, 4);
-            panel2.MinimumSize = new Size(266, 75);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(266, 75);
-            panel2.TabIndex = 4;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.FromArgb(189, 217, 223);
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Image = Properties.Resources.system_regular_63_settings_cog;
-            button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(-11, -28);
-            button1.Margin = new Padding(3, 4, 3, 4);
-            button1.Name = "button1";
-            button1.Padding = new Padding(17, 0, 0, 0);
-            button1.Size = new Size(321, 132);
-            button1.TabIndex = 2;
-            button1.Text = "          Configurações";
-            button1.TextAlign = ContentAlignment.MiddleLeft;
-            button1.UseVisualStyleBackColor = false;
-            // 
             // panel4
             // 
             panel4.BackColor = Color.FromArgb(189, 217, 223);
             panel4.Controls.Add(button3);
             panel4.ForeColor = Color.Transparent;
-            panel4.Location = new Point(3, 361);
+            panel4.Location = new Point(3, 278);
             panel4.Margin = new Padding(3, 4, 3, 4);
             panel4.MinimumSize = new Size(266, 75);
             panel4.Name = "panel4";
@@ -423,6 +430,35 @@
             button3.TextAlign = ContentAlignment.MiddleLeft;
             button3.UseVisualStyleBackColor = false;
             // 
+            // panel2
+            // 
+            panel2.BackColor = Color.FromArgb(189, 217, 223);
+            panel2.Controls.Add(button1);
+            panel2.ForeColor = Color.Transparent;
+            panel2.Location = new Point(3, 361);
+            panel2.Margin = new Padding(3, 4, 3, 4);
+            panel2.MinimumSize = new Size(266, 75);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(266, 75);
+            panel2.TabIndex = 4;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(189, 217, 223);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Image = Properties.Resources.system_regular_63_settings_cog;
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(-11, -28);
+            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Name = "button1";
+            button1.Padding = new Padding(17, 0, 0, 0);
+            button1.Size = new Size(321, 132);
+            button1.TabIndex = 2;
+            button1.Text = "          Configurações";
+            button1.TextAlign = ContentAlignment.MiddleLeft;
+            button1.UseVisualStyleBackColor = false;
+            // 
             // SideBarTimer
             // 
             SideBarTimer.Interval = 2;
@@ -430,44 +466,13 @@
             // 
             // HomeTimer
             // 
-            HomeTimer.Interval = 5;
+            HomeTimer.Interval = 2;
             HomeTimer.Tick += HomeTimer_Tick;
             // 
             // VendaTimer
             // 
-            VendaTimer.Interval = 5;
+            VendaTimer.Interval = 2;
             VendaTimer.Tick += VendaTimer_Tick;
-            // 
-            // panel6
-            // 
-            panel6.BackColor = Color.FromArgb(189, 217, 223);
-            panel6.Controls.Add(button10);
-            panel6.ForeColor = Color.Transparent;
-            panel6.Location = new Point(0, 245);
-            panel6.Margin = new Padding(3, 4, 3, 4);
-            panel6.MaximumSize = new Size(266, 57);
-            panel6.MinimumSize = new Size(266, 57);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(266, 57);
-            panel6.TabIndex = 8;
-            // 
-            // button10
-            // 
-            button10.BackColor = Color.FromArgb(182, 205, 209);
-            button10.FlatStyle = FlatStyle.Flat;
-            button10.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button10.Image = Properties.Resources.wired_lineal_27_globe;
-            button10.ImageAlign = ContentAlignment.MiddleLeft;
-            button10.Location = new Point(0, -36);
-            button10.Margin = new Padding(3, 4, 3, 4);
-            button10.Name = "button10";
-            button10.Padding = new Padding(17, 0, 0, 0);
-            button10.Size = new Size(266, 132);
-            button10.TabIndex = 2;
-            button10.Text = "           Vendas";
-            button10.TextAlign = ContentAlignment.MiddleLeft;
-            button10.UseVisualStyleBackColor = false;
-            button10.Click += button10_Click;
             // 
             // FrmHomePrincipal
             // 
@@ -491,13 +496,13 @@
             panel7.ResumeLayout(false);
             panel3.ResumeLayout(false);
             vendapainel.ResumeLayout(false);
+            panel6.ResumeLayout(false);
             panel11.ResumeLayout(false);
             panel10.ResumeLayout(false);
             panel9.ResumeLayout(false);
             panel5.ResumeLayout(false);
-            panel2.ResumeLayout(false);
             panel4.ResumeLayout(false);
-            panel6.ResumeLayout(false);
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 

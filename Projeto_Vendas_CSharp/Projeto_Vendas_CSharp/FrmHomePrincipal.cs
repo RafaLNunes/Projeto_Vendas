@@ -126,7 +126,45 @@ namespace Projeto_Vendas_CSharp
 
         private void button10_Click(object sender, EventArgs e)
         {
+            FrmNuvem nvu = new FrmNuvem();
+            this.Hide();
+            nvu.ShowDialog();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmHomePrincipal inst = new FrmHomePrincipal();
+            this.Hide();
+            inst.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FrmExplicacaoprincipal exp = new FrmExplicacaoprincipal();
+            this.Hide();
+            exp.ShowDialog();
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            FrmSoftware soft = new FrmSoftware();
+            this.Hide();
+            soft.ShowDialog();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            FrmRedes rede = new FrmRedes();
+            this.Hide();
+            rede.ShowDialog();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            FrmHardware hdw = new FrmHardware();
+            this.Hide();
+            hdw.ShowDialog();
         }
     }
 }
