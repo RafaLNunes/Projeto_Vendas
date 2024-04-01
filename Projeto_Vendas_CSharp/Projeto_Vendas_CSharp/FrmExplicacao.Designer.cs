@@ -275,6 +275,7 @@
             homebutton.Text = "          User";
             homebutton.TextAlign = ContentAlignment.MiddleLeft;
             homebutton.UseVisualStyleBackColor = false;
+            homebutton.Click += homebutton_Click_1;
             // 
             // SideBarTimer
             // 

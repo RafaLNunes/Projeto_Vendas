@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto_vendas_csharp\\projeto_vendas_csharp\\frmexplicacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|solutionrelative:projeto_vendas_csharp\\frmexplicacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto_vendas_csharp\\projeto_vendas_csharp\\frmuserinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|solutionrelative:projeto_vendas_csharp\\frmuserinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto_vendas_csharp\\projeto_vendas_csharp\\frmexplicacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|solutionrelative:projeto_vendas_csharp\\frmexplicacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto_vendas_csharp\\projeto_vendas_csharp\\frmhomeinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|solutionrelative:projeto_vendas_csharp\\frmhomeinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto_vendas_csharp\\projeto_vendas_csharp\\frmhomeinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|solutionrelative:projeto_vendas_csharp\\frmhomeinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto_vendas_csharp\\projeto_vendas_csharp\\frmuserinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|solutionrelative:projeto_vendas_csharp\\frmuserinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 171,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +30,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmExplicacao.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmExplicacao.cs",
-              "RelativeDocumentMoniker": "Projeto_Vendas_CSharp\\FrmExplicacao.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmExplicacao.cs",
-              "RelativeToolTip": "Projeto_Vendas_CSharp\\FrmExplicacao.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAADgv1cAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T13:50:32.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmExplicacao.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmExplicacao.cs",
-              "RelativeDocumentMoniker": "Projeto_Vendas_CSharp\\FrmExplicacao.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmExplicacao.cs [Projeto]",
-              "RelativeToolTip": "Projeto_Vendas_CSharp\\FrmExplicacao.cs [Projeto]",
+              "Title": "FrmUserInicial.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmUserInicial.cs",
+              "RelativeDocumentMoniker": "Projeto_Vendas_CSharp\\FrmUserInicial.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmUserInicial.cs",
+              "RelativeToolTip": "Projeto_Vendas_CSharp\\FrmUserInicial.cs",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAAAKoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T13:50:16.428Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmHomeInicial.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmHomeInicial.cs",
-              "RelativeDocumentMoniker": "Projeto_Vendas_CSharp\\FrmHomeInicial.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmHomeInicial.cs",
-              "RelativeToolTip": "Projeto_Vendas_CSharp\\FrmHomeInicial.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAEwHMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T13:42:44.945Z",
+              "WhenOpened": "2024-04-01T14:10:14.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmHomeInicial.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmHomeInicial.cs",
-              "RelativeDocumentMoniker": "Projeto_Vendas_CSharp\\FrmHomeInicial.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmHomeInicial.cs [Projeto]",
-              "RelativeToolTip": "Projeto_Vendas_CSharp\\FrmHomeInicial.cs [Projeto]",
+              "DocumentIndex": 1,
+              "Title": "FrmUserInicial.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmUserInicial.cs",
+              "RelativeDocumentMoniker": "Projeto_Vendas_CSharp\\FrmUserInicial.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmUserInicial.cs [Projeto]",
+              "RelativeToolTip": "Projeto_Vendas_CSharp\\FrmUserInicial.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T13:42:43.162Z",
+              "WhenOpened": "2024-04-01T14:10:09.631Z",
               "EditorCaption": " [Projeto]"
             }
           ]

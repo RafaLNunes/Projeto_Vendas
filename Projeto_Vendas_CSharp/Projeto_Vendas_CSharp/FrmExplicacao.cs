@@ -110,5 +110,12 @@ namespace Projeto_Vendas_CSharp
             this.Hide();
             inst.ShowDialog();
         }
+
+        private void homebutton_Click_1(object sender, EventArgs e)
+        {
+            FrmUserInicial user = new FrmUserInicial();
+            this.Hide();
+            user.ShowDialog();
+        }
     }
 }

@@ -151,6 +151,7 @@
             SideBar.Name = "SideBar";
             SideBar.Size = new Size(270, 828);
             SideBar.TabIndex = 10;
+            SideBar.Paint += SideBar_Paint;
             // 
             // panel1
             // 
@@ -183,6 +184,7 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox2.TabIndex = 6;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click_2;
             // 
             // homepainel
             // 
@@ -224,6 +226,7 @@
             button6.Text = "           Explicações";
             button6.TextAlign = ContentAlignment.MiddleLeft;
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // panel7
             // 
@@ -253,6 +256,7 @@
             button5.Text = "           Home";
             button5.TextAlign = ContentAlignment.MiddleLeft;
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click_1;
             // 
             // panel3
             // 
@@ -281,6 +285,7 @@
             button2.Text = "           Sobre nós";
             button2.TextAlign = ContentAlignment.MiddleLeft;
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // homebar
             // 
