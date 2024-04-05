@@ -45,3 +45,4 @@ C:\Users\Aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Ven
 C:\Users\Aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Vendas_CSharp\obj\Debug\net6.0-windows\Projeto_Vendas_CSharp.FrmSoftware.resources
 C:\Users\Aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Vendas_CSharp\obj\Debug\net6.0-windows\Projeto_Vendas_CSharp.FrmAviso.resources
 C:\Users\Aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Vendas_CSharp\obj\Debug\net6.0-windows\Projeto_Vendas_CSharp.FrmUserPrincipal.resources
+C:\Users\Aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Vendas_CSharp\obj\Debug\net6.0-windows\Projeto_Vendas_CSharp.Frmconfig.resources

@@ -95,6 +95,10 @@
             // 
             SideBar.BackColor = Color.FromArgb(189, 217, 223);
             SideBar.Controls.Add(panel1);
+            SideBar.Controls.Add(homepainel);
+            SideBar.Controls.Add(vendapainel);
+            SideBar.Controls.Add(panel4);
+            SideBar.Controls.Add(panel2);
             SideBar.Dock = DockStyle.Left;
             SideBar.Location = new Point(0, 0);
             SideBar.Margin = new Padding(3, 4, 3, 4);
@@ -142,12 +146,12 @@
             homepainel.Controls.Add(panel8);
             homepainel.Controls.Add(panel7);
             homepainel.Controls.Add(panel3);
-            homepainel.Location = new Point(943, 160);
+            homepainel.Location = new Point(3, 112);
             homepainel.Margin = new Padding(3, 4, 3, 4);
             homepainel.MaximumSize = new Size(266, 189);
             homepainel.MinimumSize = new Size(266, 75);
             homepainel.Name = "homepainel";
-            homepainel.Size = new Size(266, 189);
+            homepainel.Size = new Size(266, 75);
             homepainel.TabIndex = 6;
             // 
             // panel8
@@ -177,6 +181,7 @@
             button6.Text = "           Explicações";
             button6.TextAlign = ContentAlignment.MiddleLeft;
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click_1;
             // 
             // panel7
             // 
@@ -245,7 +250,7 @@
             vendapainel.Controls.Add(panel10);
             vendapainel.Controls.Add(panel9);
             vendapainel.Controls.Add(panel5);
-            vendapainel.Location = new Point(584, 227);
+            vendapainel.Location = new Point(3, 195);
             vendapainel.Margin = new Padding(3, 4, 3, 4);
             vendapainel.MaximumSize = new Size(266, 306);
             vendapainel.MinimumSize = new Size(266, 75);
@@ -282,6 +287,7 @@
             button10.Text = "           Nuvem";
             button10.TextAlign = ContentAlignment.MiddleLeft;
             button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click_1;
             // 
             // panel11
             // 
@@ -312,6 +318,7 @@
             button9.Text = "           Hardware";
             button9.TextAlign = ContentAlignment.MiddleLeft;
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click_1;
             // 
             // panel10
             // 
@@ -342,6 +349,7 @@
             button8.Text = "           Redes";
             button8.TextAlign = ContentAlignment.MiddleLeft;
             button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click_1;
             // 
             // panel9
             // 
@@ -373,6 +381,7 @@
             button7.Text = "           Software";
             button7.TextAlign = ContentAlignment.MiddleLeft;
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click_1;
             // 
             // panel5
             // 
@@ -410,7 +419,7 @@
             panel4.BackColor = Color.FromArgb(189, 217, 223);
             panel4.Controls.Add(button3);
             panel4.ForeColor = Color.Transparent;
-            panel4.Location = new Point(584, 310);
+            panel4.Location = new Point(3, 278);
             panel4.Margin = new Padding(3, 4, 3, 4);
             panel4.MinimumSize = new Size(266, 75);
             panel4.Name = "panel4";
@@ -439,7 +448,7 @@
             panel2.BackColor = Color.FromArgb(189, 217, 223);
             panel2.Controls.Add(button1);
             panel2.ForeColor = Color.Transparent;
-            panel2.Location = new Point(584, 393);
+            panel2.Location = new Point(3, 361);
             panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.MinimumSize = new Size(266, 75);
             panel2.Name = "panel2";
@@ -469,10 +478,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1282, 828);
             Controls.Add(SideBar);
-            Controls.Add(homepainel);
-            Controls.Add(vendapainel);
-            Controls.Add(panel2);
-            Controls.Add(panel4);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 4, 3, 4);
             Name = "FrmHomePrincipal";

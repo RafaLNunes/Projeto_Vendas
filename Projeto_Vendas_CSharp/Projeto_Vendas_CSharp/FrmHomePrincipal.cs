@@ -179,7 +179,7 @@ namespace Projeto_Vendas_CSharp
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-
+            VendaTimer.Start();
         }
 
         private void button2_Click_1(object sender, EventArgs e)
@@ -187,6 +187,37 @@ namespace Projeto_Vendas_CSharp
             FrmHomePrincipal hm = new FrmHomePrincipal();
             this.Hide();
             hm.ShowDialog();
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            FrmExplicacaoprincipal exp = new FrmExplicacaoprincipal();
+            this.Hide();
+            exp.ShowDialog();
+        }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            FrmSoftware sof = new FrmSoftware();
+            this.Hide(); sof.ShowDialog();
+        }
+
+        private void button8_Click_1(object sender, EventArgs e)
+        {
+            FrmRedes rede = new FrmRedes();
+            this.Hide(); rede.ShowDialog();
+        }
+
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+            FrmHardware hard = new FrmHardware();
+            this.Hide(); hard.ShowDialog();
+        }
+
+        private void button10_Click_1(object sender, EventArgs e)
+        {
+            FrmNuvem nuvem = new FrmNuvem();
+            this.Hide(); nuvem.ShowDialog();
         }
     }
 }
