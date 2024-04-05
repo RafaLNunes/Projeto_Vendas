@@ -31,5 +31,8 @@
     <Compile Update="FrmUserInicial.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmUserPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

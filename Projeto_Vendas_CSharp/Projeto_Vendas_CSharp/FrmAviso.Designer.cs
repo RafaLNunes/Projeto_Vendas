@@ -70,6 +70,7 @@
             button1.TabIndex = 1;
             button1.Text = "OK";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // panel1
             // 
@@ -92,6 +93,7 @@
             button2.TabIndex = 2;
             button2.Text = "CANCELAR";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // FrmAviso
             // 
