@@ -1,6 +1,6 @@
 ﻿namespace Projeto_Vendas_CSharp
 {
-    partial class FrmUserPrincipal
+    partial class Frmconfig
     {
         /// <summary>
         /// Required designer variable.
@@ -30,16 +30,15 @@
         {
             SuspendLayout();
             // 
-            // FrmUserPrincipal
+            // Frmconfig
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1282, 828);
-            Name = "FrmUserPrincipal";
+            Name = "Frmconfig";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "FrmUserPrincipal";
-            FormClosed += FrmUserPrincipal_FormClosed;
-            Load += FrmUserPrincipal_Load;
+            Text = "Frmconfig";
+            FormClosed += Frmconfig_FormClosed;
             ResumeLayout(false);
         }
 

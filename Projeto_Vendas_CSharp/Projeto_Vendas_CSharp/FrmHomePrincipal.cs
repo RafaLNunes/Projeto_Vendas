@@ -166,5 +166,27 @@ namespace Projeto_Vendas_CSharp
             this.Hide();
             hdw.ShowDialog();
         }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+            SideBarTimer.Start();
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            HomeTimer.Start();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            FrmHomePrincipal hm = new FrmHomePrincipal();
+            this.Hide();
+            hm.ShowDialog();
+        }
     }
 }

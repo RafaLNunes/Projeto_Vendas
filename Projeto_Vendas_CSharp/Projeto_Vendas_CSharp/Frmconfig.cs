@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace Projeto_Vendas_CSharp
 {
-    public partial class FrmUserPrincipal : Form
+    public partial class Frmconfig : Form
     {
-        public FrmUserPrincipal()
+        public Frmconfig()
         {
             InitializeComponent();
         }
 
-        private void FrmUserPrincipal_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FrmUserPrincipal_FormClosed(object sender, FormClosedEventArgs e)
+        private void Frmconfig_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
