@@ -30,6 +30,9 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHomePrincipal));
+            SideBarTimer = new System.Windows.Forms.Timer(components);
+            HomeTimer = new System.Windows.Forms.Timer(components);
+            VendaTimer = new System.Windows.Forms.Timer(components);
             SideBar = new FlowLayoutPanel();
             panel1 = new Panel();
             label1 = new Label();
@@ -56,9 +59,6 @@
             button3 = new Button();
             panel2 = new Panel();
             button1 = new Button();
-            SideBarTimer = new System.Windows.Forms.Timer(components);
-            HomeTimer = new System.Windows.Forms.Timer(components);
-            VendaTimer = new System.Windows.Forms.Timer(components);
             SideBar.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -76,14 +76,25 @@
             panel2.SuspendLayout();
             SuspendLayout();
             // 
+            // SideBarTimer
+            // 
+            SideBarTimer.Interval = 2;
+            SideBarTimer.Tick += SideBarTimer_Tick;
+            // 
+            // HomeTimer
+            // 
+            HomeTimer.Interval = 2;
+            HomeTimer.Tick += HomeTimer_Tick;
+            // 
+            // VendaTimer
+            // 
+            VendaTimer.Interval = 2;
+            VendaTimer.Tick += VendaTimer_Tick;
+            // 
             // SideBar
             // 
             SideBar.BackColor = Color.FromArgb(189, 217, 223);
             SideBar.Controls.Add(panel1);
-            SideBar.Controls.Add(homepainel);
-            SideBar.Controls.Add(vendapainel);
-            SideBar.Controls.Add(panel4);
-            SideBar.Controls.Add(panel2);
             SideBar.Dock = DockStyle.Left;
             SideBar.Location = new Point(0, 0);
             SideBar.Margin = new Padding(3, 4, 3, 4);
@@ -91,8 +102,7 @@
             SideBar.MinimumSize = new Size(77, 775);
             SideBar.Name = "SideBar";
             SideBar.Size = new Size(270, 828);
-            SideBar.TabIndex = 2;
-            SideBar.Paint += SideBar_Paint;
+            SideBar.TabIndex = 3;
             // 
             // panel1
             // 
@@ -125,19 +135,19 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox2.TabIndex = 6;
             pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox2_Click;
+            pictureBox2.Click += pictureBox2_Click_1;
             // 
             // homepainel
             // 
             homepainel.Controls.Add(panel8);
             homepainel.Controls.Add(panel7);
             homepainel.Controls.Add(panel3);
-            homepainel.Location = new Point(3, 112);
+            homepainel.Location = new Point(943, 160);
             homepainel.Margin = new Padding(3, 4, 3, 4);
             homepainel.MaximumSize = new Size(266, 189);
             homepainel.MinimumSize = new Size(266, 75);
             homepainel.Name = "homepainel";
-            homepainel.Size = new Size(266, 75);
+            homepainel.Size = new Size(266, 189);
             homepainel.TabIndex = 6;
             // 
             // panel8
@@ -167,7 +177,6 @@
             button6.Text = "           Explicações";
             button6.TextAlign = ContentAlignment.MiddleLeft;
             button6.UseVisualStyleBackColor = false;
-            button6.Click += button6_Click;
             // 
             // panel7
             // 
@@ -197,7 +206,7 @@
             button5.Text = "           Home";
             button5.TextAlign = ContentAlignment.MiddleLeft;
             button5.UseVisualStyleBackColor = false;
-            button5.Click += button5_Click;
+            button5.Click += button5_Click_1;
             // 
             // panel3
             // 
@@ -226,7 +235,7 @@
             button2.Text = "           Sobre nós";
             button2.TextAlign = ContentAlignment.MiddleLeft;
             button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            button2.Click += button2_Click_1;
             // 
             // vendapainel
             // 
@@ -236,14 +245,13 @@
             vendapainel.Controls.Add(panel10);
             vendapainel.Controls.Add(panel9);
             vendapainel.Controls.Add(panel5);
-            vendapainel.Location = new Point(3, 195);
+            vendapainel.Location = new Point(584, 227);
             vendapainel.Margin = new Padding(3, 4, 3, 4);
             vendapainel.MaximumSize = new Size(266, 306);
             vendapainel.MinimumSize = new Size(266, 75);
             vendapainel.Name = "vendapainel";
             vendapainel.Size = new Size(266, 75);
             vendapainel.TabIndex = 5;
-            vendapainel.Paint += vendapainel_Paint;
             // 
             // panel6
             // 
@@ -274,7 +282,6 @@
             button10.Text = "           Nuvem";
             button10.TextAlign = ContentAlignment.MiddleLeft;
             button10.UseVisualStyleBackColor = false;
-            button10.Click += button10_Click;
             // 
             // panel11
             // 
@@ -305,7 +312,6 @@
             button9.Text = "           Hardware";
             button9.TextAlign = ContentAlignment.MiddleLeft;
             button9.UseVisualStyleBackColor = false;
-            button9.Click += button9_Click;
             // 
             // panel10
             // 
@@ -336,7 +342,6 @@
             button8.Text = "           Redes";
             button8.TextAlign = ContentAlignment.MiddleLeft;
             button8.UseVisualStyleBackColor = false;
-            button8.Click += button8_Click;
             // 
             // panel9
             // 
@@ -368,7 +373,6 @@
             button7.Text = "           Software";
             button7.TextAlign = ContentAlignment.MiddleLeft;
             button7.UseVisualStyleBackColor = false;
-            button7.Click += button7_Click;
             // 
             // panel5
             // 
@@ -399,14 +403,14 @@
             button4.Text = "           Vendas";
             button4.TextAlign = ContentAlignment.MiddleLeft;
             button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
+            button4.Click += button4_Click_1;
             // 
             // panel4
             // 
             panel4.BackColor = Color.FromArgb(189, 217, 223);
             panel4.Controls.Add(button3);
             panel4.ForeColor = Color.Transparent;
-            panel4.Location = new Point(3, 278);
+            panel4.Location = new Point(584, 310);
             panel4.Margin = new Padding(3, 4, 3, 4);
             panel4.MinimumSize = new Size(266, 75);
             panel4.Name = "panel4";
@@ -435,7 +439,7 @@
             panel2.BackColor = Color.FromArgb(189, 217, 223);
             panel2.Controls.Add(button1);
             panel2.ForeColor = Color.Transparent;
-            panel2.Location = new Point(3, 361);
+            panel2.Location = new Point(584, 393);
             panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.MinimumSize = new Size(266, 75);
             panel2.Name = "panel2";
@@ -459,27 +463,16 @@
             button1.TextAlign = ContentAlignment.MiddleLeft;
             button1.UseVisualStyleBackColor = false;
             // 
-            // SideBarTimer
-            // 
-            SideBarTimer.Interval = 2;
-            SideBarTimer.Tick += SideBarTimer_Tick;
-            // 
-            // HomeTimer
-            // 
-            HomeTimer.Interval = 2;
-            HomeTimer.Tick += HomeTimer_Tick;
-            // 
-            // VendaTimer
-            // 
-            VendaTimer.Interval = 2;
-            VendaTimer.Tick += VendaTimer_Tick;
-            // 
             // FrmHomePrincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1282, 828);
             Controls.Add(SideBar);
+            Controls.Add(homepainel);
+            Controls.Add(vendapainel);
+            Controls.Add(panel2);
+            Controls.Add(panel4);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 4, 3, 4);
             Name = "FrmHomePrincipal";
@@ -507,17 +500,13 @@
         }
 
         #endregion
+        private System.Windows.Forms.Timer SideBarTimer;
+        private System.Windows.Forms.Timer HomeTimer;
+        private System.Windows.Forms.Timer VendaTimer;
         private FlowLayoutPanel SideBar;
-        private Panel panel4;
-        private Button button3;
-        private Panel panel5;
-        private Button button4;
-        private Panel panel2;
-        private Button button1;
         private Panel panel1;
         private Label label1;
         private PictureBox pictureBox2;
-        private System.Windows.Forms.Timer SideBarTimer;
         private Panel homepainel;
         private Panel panel8;
         private Button button6;
@@ -525,16 +514,20 @@
         private Button button5;
         private Panel panel3;
         private Button button2;
-        private System.Windows.Forms.Timer HomeTimer;
         private Panel vendapainel;
-        private Panel panel9;
-        private Button button7;
-        private Panel panel10;
-        private Button button8;
-        private Panel panel11;
-        private Button button9;
-        private System.Windows.Forms.Timer VendaTimer;
         private Panel panel6;
         private Button button10;
+        private Panel panel11;
+        private Button button9;
+        private Panel panel10;
+        private Button button8;
+        private Panel panel9;
+        private Button button7;
+        private Panel panel5;
+        private Button button4;
+        private Panel panel4;
+        private Button button3;
+        private Panel panel2;
+        private Button button1;
     }
 }

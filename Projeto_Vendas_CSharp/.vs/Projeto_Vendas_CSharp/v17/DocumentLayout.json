@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto_vendas_csharp\\projeto_vendas_csharp\\alt_hardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|solutionrelative:projeto_vendas_csharp\\alt_hardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -13,18 +14,27 @@
     {
       "AbsoluteMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto_vendas_csharp\\projeto_vendas_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|solutionrelative:projeto_vendas_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\projeto_vendas_csharp\\frmhomeprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|solutionrelative:projeto_vendas_csharp\\frmhomeprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 2dc11df49d64068b54b98e00724f91ba4bc7db59
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto_vendas_csharp\\projeto_vendas_csharp\\frmhomeprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|solutionrelative:projeto_vendas_csharp\\frmhomeprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto_vendas_csharp\\projeto_vendas_csharp\\frmhardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|solutionrelative:projeto_vendas_csharp\\frmhardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto_vendas_csharp\\projeto_vendas_csharp\\frmredes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|solutionrelative:projeto_vendas_csharp\\frmredes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+      "AbsoluteMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|c:\\users\\aluno\\documents\\github\\projeto_vendas\\projeto_vendas_csharp\\projeto_vendas_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C338F3B-F018-4928-A324-5597C5D49648}|Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp.csproj|solutionrelative:projeto_vendas_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 2dc11df49d64068b54b98e00724f91ba4bc7db59
     }
   ],
   "DocumentGroupContainers": [
@@ -34,16 +44,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 171,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> 2dc11df49d64068b54b98e00724f91ba4bc7db59
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -52,6 +58,7 @@
               "RelativeDocumentMoniker": "Projeto_Vendas_CSharp\\Program.cs",
               "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\Program.cs",
               "RelativeToolTip": "Projeto_Vendas_CSharp\\Program.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T13:35:56.252Z",
@@ -68,11 +75,18 @@
               "ViewState": "AQIAAAwAAAAAAAAAAIA3wBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T13:19:43.915Z",
+=======
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T13:41:22.583Z",
+              "IsPinned": true,
+>>>>>>> 2dc11df49d64068b54b98e00724f91ba4bc7db59
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "ALT_HARDWARE.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\ALT_HARDWARE.cs",
               "RelativeDocumentMoniker": "Projeto_Vendas_CSharp\\ALT_HARDWARE.cs",
@@ -85,6 +99,22 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+=======
+              "Title": "FrmHomePrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmHomePrincipal.cs",
+              "RelativeDocumentMoniker": "Projeto_Vendas_CSharp\\FrmHomePrincipal.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmHomePrincipal.cs",
+              "RelativeToolTip": "Projeto_Vendas_CSharp\\FrmHomePrincipal.cs",
+              "ViewState": "AQIAAK4AAAAAAAAAAIA5wLwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T13:09:02.74Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+>>>>>>> 2dc11df49d64068b54b98e00724f91ba4bc7db59
               "Title": "FrmHomePrincipal.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_Vendas\\Projeto_Vendas_CSharp\\Projeto_Vendas_CSharp\\FrmHomePrincipal.cs",
               "RelativeDocumentMoniker": "Projeto_Vendas_CSharp\\FrmHomePrincipal.cs",
@@ -92,9 +122,11 @@
               "RelativeToolTip": "Projeto_Vendas_CSharp\\FrmHomePrincipal.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T13:08:53.541Z",
+              "IsPinned": true,
               "EditorCaption": " [Projeto]"
             },
             {
+<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "FrmHardware.cs [Projeto]",
@@ -117,6 +149,14 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T13:14:56.711Z",
               "EditorCaption": " [Projeto]"
+=======
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+>>>>>>> 2dc11df49d64068b54b98e00724f91ba4bc7db59
             }
           ]
         }
