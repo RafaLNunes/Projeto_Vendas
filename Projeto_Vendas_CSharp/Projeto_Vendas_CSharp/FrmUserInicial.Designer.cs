@@ -81,7 +81,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(512, 335);
+            label2.Location = new Point(508, 335);
             label2.Name = "label2";
             label2.Size = new Size(72, 20);
             label2.TabIndex = 5;
@@ -107,7 +107,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(512, 287);
+            label3.Location = new Point(502, 286);
             label3.Name = "label3";
             label3.Size = new Size(78, 20);
             label3.TabIndex = 7;

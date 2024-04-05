@@ -45,4 +45,11 @@ C:\Users\Aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Ven
 C:\Users\Aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Vendas_CSharp\obj\Debug\net6.0-windows\Projeto_Vendas_CSharp.FrmSoftware.resources
 C:\Users\Aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Vendas_CSharp\obj\Debug\net6.0-windows\Projeto_Vendas_CSharp.FrmAviso.resources
 C:\Users\Aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Vendas_CSharp\obj\Debug\net6.0-windows\Projeto_Vendas_CSharp.FrmUserPrincipal.resources
+<<<<<<< HEAD
 C:\Users\Aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Vendas_CSharp\obj\Debug\net6.0-windows\Projeto_Vendas_CSharp.Frmconfig.resources
+=======
+<<<<<<< HEAD
+C:\Users\Aluno\Documents\GitHub\Projeto_Vendas\Projeto_Vendas_CSharp\Projeto_Vendas_CSharp\obj\Debug\net6.0-windows\Projeto_Vendas_CSharp.ALT_HARDWARE.resources
+=======
+>>>>>>> 2dc11df49d64068b54b98e00724f91ba4bc7db59
+>>>>>>> 4fd1d3d3f90e145d8e0830fa267f01970a68a1f8
