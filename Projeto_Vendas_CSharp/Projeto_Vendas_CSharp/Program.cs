@@ -12,7 +12,7 @@ namespace Projeto_Vendas_CSharp
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 <<<<<<< HEAD
-            Application.Run(new FrmHomePrincipal());
+            Application.Run(new FrmHomeInicial());
 =======
 <<<<<<< HEAD
             Application.Run(new ALT_HARDWARE());
