@@ -36,6 +36,16 @@ create table usuario(
     constraint FK_perfil foreign key (CFK_perfil) references perfil(Cod_perfil)
 );
 
+create table Historico_pedidos(
+	Cod_hist int primary key auto_increment,
+    dia_ped date,
+    hora_ped time,
+    CFK_prod int,
+    CFK_User int,
+    constraint FK_user foreign key (CFK_User) references usuario(Cod_usuario),
+    constraint FK_prod foreign key (CFK_prod)references produto(Cod_prod)
+);
+
 insert into perfil(cargo) values("ADM"), ("Gerente"), ("Cliente"),("Revendedor"),("Técnico");
 insert into fornecedor(nome_fornc, Local_trabalho) values ("Adam", "SESI"), ("Gabriel", "SENAI"), ("Rafael", "FIEP");
 
